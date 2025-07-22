@@ -6,10 +6,7 @@ self.addEventListener('install', function(event) {
         '/',
         '/index.html',
         '/manifest.json',
-        '/icon-192.png',
         '/icon-512.png',
-        '/styles.css',
-        '/app.js',
         // Agrega aquí todos los archivos estáticos que uses
       ]);
     })
