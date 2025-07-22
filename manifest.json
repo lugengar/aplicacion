@@ -4,6 +4,7 @@
     "start_url": ".",
     "display": "fullscreen",
     "background_color": "#222222",
+    "navigation_mode": "immersive",
     "theme_color": "#222222",
     "icons": [
       {
