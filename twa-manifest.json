@@ -25,7 +25,11 @@
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://lugengar.github.io/aplicacion/manifest.json",
   "fallbackType": "customtabs",
-  "features": {},
+  "features": {
+    "locationDelegation": {
+      "enabled": true
+    }
+  },
   "alphaDependencies": {
     "enabled": false
   },
@@ -34,7 +38,7 @@
   "isMetaQuest": false,
   "fullScopeUrl": "https://lugengar.github.io/aplicacion/",
   "minSdkVersion": 21,
-  "orientation": "landscape",
+  "orientation": "portrait",
   "fingerprints": [],
   "additionalTrustedOrigins": [],
   "retainedBundles": [],
