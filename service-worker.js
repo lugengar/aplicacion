@@ -1,17 +1,21 @@
 // service-worker.js
-self.addEventListener('install', function (event) {
-    event.waitUntil(
-      caches.open('mi-cache').then(function (cache) {
-        return cache.addAll([
-          '/',
-          '/index.html',
-          '/manifest.json',
-          '/icon-192.png',
-          '/icon-512.png'
-        ]);
-      })
-    );
-  });
+self.addEventListener('install', function(event) {
+  event.waitUntil(
+    caches.open('mi-cache-v1').then(function(cache) {
+      return cache.addAll([
+        '/',
+        '/index.html',
+        '/manifest.json',
+        '/icon-192.png',
+        '/icon-512.png',
+        '/styles.css',
+        '/app.js',
+        // Agrega aquí todos los archivos estáticos que uses
+      ]);
+    })
+  );
+});
+
   
   self.addEventListener('fetch', function (event) {
     event.respondWith(
