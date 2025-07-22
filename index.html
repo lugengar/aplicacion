@@ -27,6 +27,7 @@
   <p id="salida"></p>
 
   <script>
+    fetch("https://lugengar.github.io/aplicacion/data.json")
     function guardar() {
       const valor = document.getElementById("dato").value;
       localStorage.setItem("guardado", valor);
