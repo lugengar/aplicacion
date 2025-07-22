@@ -25,11 +25,7 @@
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://lugengar.github.io/aplicacion/manifest.json",
   "fallbackType": "customtabs",
-  "features": {
-    "locationDelegation": {
-      "enabled": true
-    }
-  },
+  "features": {},
   "alphaDependencies": {
     "enabled": false
   },
