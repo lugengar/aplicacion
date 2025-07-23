@@ -5,7 +5,7 @@
       ],
       "target": {
         "namespace": "android_app",
-        "package_name": "app.web.finalscalcu.twa",
+        "package_name": "com.example.twa",
         "sha256_cert_fingerprints": [
           "B2:07:46:CC:5D:29:6D:62:0B:92:6C:A6:CC:65:23:82:39:95:3F:75:FF:4C:B6:FE:CB:68:33:8B:60:EC:07:C5"
         ]
@@ -17,7 +17,7 @@
       ],
       "target": {
         "namespace": "android_app",
-        "package_name": "app.web.finalscalcu.twa"
+        "package_name": "com.example.twa"
       }
     }
   ]
